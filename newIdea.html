@@ -21,8 +21,8 @@
 
         <div class="content">
             <div class="section">
-                <form action="/action_page.php">
-                    <p>Categorie</p>
+                <form action="https://formsubmit.co/innovation-station@outlook.com" method="POST">
+                    <label for="categorie">Categorie</label>
                         <input type="radio" id="interventie" name="categorie" value="interventie">
                         <label for="interventie">Verpleegkundige interventie</label><br>
                         <input type="radio" id="communicatie" name="categorie" value="communicatie">
@@ -33,19 +33,24 @@
                         <label for="relatie">Relatie met patiënt of bezoekers</label><br>
                         <input type="radio" id="anders" name="categorie" value="anders">
                         <label for="anders">Anders, namelijk 
-                            <input type="text">
-                        </label><br>
+                            <input type="text" placeholder="...">
+                        </label>
+                    <br>
 
 <!-- set max characters in js-->
-                    <p>Beschrijf je idee bondig maar duidelijk</p>
-                        <input type="text" value="Mijn idee betreft ... "><br>
-
                     <div>
-                        <input type="checkbox">
+                        <label for="idee">Beschrijf je idee bondig maar duidelijk</label>
+                        <input name="idee" type="text" placeholder="Mijn idee betreft ... " required maxlength="255"><br>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" required>
                         <p>Ik heb geen er bezwaar tegen dat mijn anoniem opgegeven idee intern en in een collegiale werkgroep besproken kan worden.</p>
                     </div>
-
-                        <input type="submit" value="Indienen">
+                    <br>
+                    <div>
+                        <input type="submit" value="Versturen">
+                    </div>
                 </form>
             </div>
         </div>
