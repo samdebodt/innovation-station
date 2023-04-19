@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Innovation Station - Probleem</title>
+    </head>
+    <body>
+        <header>
+            <img src="media/logo.png">
+            <ul>
+                <li>Innovation Station</li>
+                <li>Overzicht</li>
+                <li>Up to date</li>
+                <li>Who knows</li>
+                <li>Over Innovation Station</li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="section">
+                <form action="/action_page.php">
+                    <p>Categorie</p>
+                        <input type="radio" id="interventie" name="categorie" value="interventie">
+                        <label for="interventie">Verpleegkundige interventie</label><br>
+                        <input type="radio" id="communicatie" name="categorie" value="communicatie">
+                        <label for="communicatie">Communicatie</label><br>
+                        <input type="radio" id="team" name="categorie" value="team">
+                        <label for="team">Team</label><br>
+                        <input type="radio" id="relatie" name="categorie" value="relatie">
+                        <label for="relatie">Relatie met patiënt of bezoekers</label><br>
+                        <input type="radio" id="anders" name="categorie" value="anders">
+                        <label for="anders">Anders, namelijk 
+                            <input type="text">
+                        </label><br>
+
+<!-- set max characters in js-->
+                    <p>Beschrijf het probleem bondig maar duidelijk</p>
+                        <input type="text" value="Mijn probleem betreft ... "><br>
+
+                    <div>
+                        <input type="checkbox">
+                        <p>Ik heb geen er bezwaar tegen dat mijn anoniem opgegeven probleem intern en in een collegiale werkgroep besproken kan worden.</p>
+                    </div>
+
+                        <input type="submit" value="Indienen">
+                </form>
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
