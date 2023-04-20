@@ -1,11 +1,9 @@
 body {
-    background-color: rgb(055,055,195);
     padding: 0;
     margin: 0;
 }
 
 /* HEADER STYLE */
-
 .header {
     background-color: rgb(055,055,295);
     display: block;
@@ -37,7 +35,6 @@ body {
     text-align: center;
     margin: 1vh;
     padding: 0;
-    text-decoration: none;
     font-family: monospace;
     color: #000000;
 }
@@ -49,12 +46,11 @@ body {
     color: #bbbbdd;
 }
 #current {
-    background-color: rgb(155,155,255);
+    background-color: #6495ff;
     color: #584629;
 }
 
-/* CONTENT STYLE */
-
+/* GENERAL CONTENT STYLE */
 .content {
     background-color: #6495dd;
     height: 90vh;
@@ -62,42 +58,123 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
 .section {
-    background-color: #bb95aa;
-    padding: 0;
-    margin: 2vh auto 2vh auto;
-    width: 98vw;
+    background-color: #fffab0;
+    padding: 2vh 1vw 2vh 1vw;
+    margin: 2vh 1vw 2vh 1vw;
+    width: 96vw;
     height: fit-content;
     overflow: auto;
+    border-radius: 2vh;
 }
-
+.no-background {
+    background: none;
+}
+a {
+    text-decoration: none;
+}
 .one {
-    width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
     padding: 0;
     display: block;
 }
-
 .two {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
     display: block;
     float: left;
 }
-
 .three {
     width: 33.33%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
     display: block;
     float: left;
+}
+.titel {
+    height: 4.5vh;
+    padding: 0 0 1vh 0;
+    text-align: center;
+    font-family: cursive;
+    font-size: 140%;
+}
+
+/* INDEX CONTENT */
+#idea, #problem {
+    color: #ffffff;
+    background-color: #bb95aa;
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    height: 10vh;
+    border: 2px solid #eeaacc;
+}
+#idea:hover, #problem:hover {
+    background-color: #ccaabb;
+}
+#idea p, #problem p {
+    margin: 0;
+    padding: 3vh 0 0 0;
+    font-family: sans-serif;
+    font-size: 160%;
+}
+#first p, #second p, #third p {
+    padding: 0 3vh 0 3vh;
+    margin: 1.2vh;
+}
+#first {
+    background-color: #ffd700;
+    border: 2px #6495dd ridge;
+    box-sizing: border-box;
+    border-radius: 1.5vh;
+    width: 30vw;
+    height: 5vh;
+    margin: 0 1vw 0 1vw;
+}
+#second {
+    background-color: #c0c0c0;
+    border: 2px #6495dd ridge;
+    box-sizing: border-box;
+    border-radius: 1.5vh;
+    width: fit-content;
+    width: 30vw;
+    height: 5vh;
+    margin: 0 1vw 0 1vw;
+}
+#third {
+    background-color: #cd7f32;
+    border: 2px #6495dd ridge;
+    box-sizing: border-box;
+    border-radius: 1.5vh;
+    width: 30vw;
+    height: 5vh;
+    margin: 0 1vw 0 1vw;
+}
+.winner p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 140%;
+    margin-top: 7vh;
+    padding-top: 6vh;
+    padding-bottom: 7vh;
+    text-decoration: underline #ffd700;
+}
+#monthly-image {
+    width: auto;
+    height: 40vh;
+    float: right;
+}
+#monthly-title {
+    width: 30vw;
+    float: left;
+    padding-left: 10vw;
 }
 
 /* MOBILE ADAPTION
-
 @media only screen and (max-width: 600px){
     .header {
         height: 15vh;
