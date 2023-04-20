@@ -1,12 +1,107 @@
 body {
     background-color: rgb(055,055,195);
+    padding: 0;
+    margin: 0;
 }
 
+/* HEADER STYLE */
+
+.header {
+    background-color: rgb(055,055,295);
+    display: block;
+    height: 10vh;
+}
+.header img {
+    height: 10vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.header div {
+    display: block;
+    position: absolute;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    width: 82vw;
+    margin: 0;
+    padding:0;
+}
+.header div a {
+    display: inline-block;
+    height: 8vh;
+    width: 14vw;
+    text-align: center;
+    margin: 1vh;
+    padding: 0;
+    text-decoration: none;
+    font-family: monospace;
+    color: #000000;
+}
+.header div a p {
+    padding-top: 1.2vh;
+}
+.header div a:hover {
+    background-color: rgb(055,055,155);
+    color: #bbbbdd;
+}
+#current {
+    background-color: rgb(155,155,255);
+    color: #584629;
+}
+
+/* CONTENT STYLE */
 
 .content {
-    background-color: green;
+    background-color: #6495dd;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 .section {
-    background-color: red;
+    background-color: #bb95aa;
+    padding: 0;
+    margin: 2vh auto 2vh auto;
+    width: 98vw;
+    height: fit-content;
+    overflow: auto;
 }
+
+.one {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+}
+
+.two {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+
+.three {
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+
+/* MOBILE ADAPTION
+
+@media only screen and (max-width: 600px){
+    .header {
+        height: 15vh;
+    }
+}
+
+ */
