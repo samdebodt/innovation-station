@@ -5,7 +5,7 @@ body {
 
 /* HEADER STYLE */
 .header {
-    background-color: rgb(055,055,295);
+    background-color: #1E6E99;
     display: block;
     height: 10vh;
 }
@@ -42,30 +42,31 @@ body {
     padding-top: 1.2vh;
 }
 .header div a:hover {
-    background-color: rgb(055,055,155);
-    color: #bbbbdd;
+    background-color: #187795;
+    color: #CDC6AE;
 }
 #current {
-    background-color: #6495ff;
-    color: #584629;
+    background-color: #A3B4A2;
+    color: #38686A;
 }
 
 /* GENERAL CONTENT STYLE */
 .content {
-    background-color: #6495dd;
+    background-color: #EDE7E3;
     height: 90vh;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 .section {
-    background-color: #fffab0;
+    background-color: #B8D4D8;
     padding: 2vh 1vw 2vh 1vw;
     margin: 2vh 1vw 2vh 1vw;
     width: 96vw;
     height: fit-content;
     overflow: auto;
     border-radius: 2vh;
+    color: #16697A;
 }
 .no-background {
     background: none;
@@ -74,9 +75,9 @@ a {
     text-decoration: none;
 }
 .one {
-    width: 100%;
+    width: 95%;
     margin: 0 auto 0 auto;
-    padding: 0;
+    padding: 0 2vw 2vh 2vw;
     display: block;
 }
 .two {
@@ -97,24 +98,27 @@ a {
     height: 4.5vh;
     padding: 0 0 1vh 0;
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
     font-size: 140%;
 }
 
 /* INDEX CONTENT */
 #idea, #problem {
-    color: #ffffff;
-    background-color: #bb95aa;
+    color: #EDE7E3;
+    background-color: #FFA62B;
     text-align: center;
+    text-decoration: underline 0.5;
     display: block;
     padding: 0;
     margin: 0 auto 0 auto;
     width: 80%;
     height: 10vh;
-    border: 2px solid #eeaacc;
+    border: 2px solid #EDE7E3;
 }
 #idea:hover, #problem:hover {
-    background-color: #ccaabb;
+    background-color: #EDE7E3;
+    color: #FFA62B;
+    border-color: #FFA62B;
 }
 #idea p, #problem p {
     margin: 0;
@@ -128,31 +132,37 @@ a {
 }
 #first {
     background-color: #ffd700;
-    border: 2px #6495dd ridge;
+    border: 2px #1E6E99 ridge;
     box-sizing: border-box;
     border-radius: 1.5vh;
     width: 30vw;
     height: 5vh;
     margin: 0 1vw 0 1vw;
+    color: #000000;
+    font-family: fantasy;
 }
 #second {
     background-color: #c0c0c0;
-    border: 2px #6495dd ridge;
+    border: 2px #1E6E99 ridge;
     box-sizing: border-box;
     border-radius: 1.5vh;
     width: fit-content;
     width: 30vw;
     height: 5vh;
     margin: 0 1vw 0 1vw;
+    color: #000000;
+    font-family: fantasy;
 }
 #third {
     background-color: #cd7f32;
-    border: 2px #6495dd ridge;
+    border: 2px #1E6E99 ridge;
     box-sizing: border-box;
     border-radius: 1.5vh;
     width: 30vw;
     height: 5vh;
     margin: 0 1vw 0 1vw;
+    color: #000000;
+    font-family: fantasy;
 }
 .winner p {
     text-align: center;
