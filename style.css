@@ -44,10 +44,12 @@ body {
 .header div a:hover {
     background-color: #187795;
     color: #CDC6AE;
+    text-decoration: underline;
 }
 #current {
     background-color: #A3B4A2;
     color: #38686A;
+    text-decoration: none;
 }
 
 /* GENERAL CONTENT STYLE */
@@ -106,6 +108,7 @@ a {
 #idea, #problem {
     color: #EDE7E3;
     background-color: #FFA62B;
+    text-shadow: 2px 2px 8px #489FB5;
     text-align: center;
     text-decoration: underline 0.5;
     display: block;
@@ -113,11 +116,12 @@ a {
     margin: 0 auto 0 auto;
     width: 80%;
     height: 10vh;
-    border: 2px solid #EDE7E3;
+    border: 0.5vh solid #489FB5;
 }
 #idea:hover, #problem:hover {
-    background-color: #EDE7E3;
-    color: #FFA62B;
+    background-color: #F6C787;
+    color: #16697A;
+    text-decoration: underline;
     border-color: #FFA62B;
 }
 #idea p, #problem p {
